@@ -43,9 +43,7 @@ function setup() {
   var CargarBoton = select("#CargarBoton");
   CargarBoton.mousePressed(CargarNeurona);
 
-  CargarNeurona();
-  clasificar();
-  draw();
+  //CargarNeurona();
 }
 
 function draw() {
