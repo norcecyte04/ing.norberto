@@ -147,7 +147,7 @@ function GuardadNeurona() {
 
 function CargarNeurona() {
   console.log("Cargando una Neurona");
-  knn.load("./data/NeuronaKNN.json", function() {
+  knn.load("./NeuronaKNN.json", function() {
     console.log("Neurona Cargada knn");
     CartaMensaje.innerText = "Neurona cargana de archivo";
     CargandoNeurona = true;
